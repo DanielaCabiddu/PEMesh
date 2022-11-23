@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/logo">
+        <file>img/erc_logo.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>img/color_icon.png</file>
+        <file>img/save_icon.png</file>
+        <file>img/image_icon.png</file>
+        <file>img/run_icon.png</file>
+        <file>img/geometry_icon.png</file>
+        <file>img/slider.png</file>
+        <file>img/add_icon.png</file>
+        <file>img/plus_icon.png</file>
+        <file>img/minus_icon.png</file>
+        <file>img/open_file_icon.ico</file>
+        <file>img/mirroring.png</file>
+        <file>img/aggregate.png</file>
+    </qresource>
+    <qresource prefix="/class_img">
+        <file>img/zeta.png</file>
+        <file>img/ulike.png</file>
+        <file>img/star.png</file>
+        <file>img/nsided.png</file>
+        <file>img/maze.png</file>
+        <file>img/isotropy.png</file>
+        <file>img/convexity.png</file>
+        <file>img/comb.png</file>
+        <file>img/points-equispaced.png</file>
+        <file>img/points-linear.png</file>
+        <file>img/points-nonlinear.png</file>
+        <file>img/points-poisson.png</file>
+        <file>img/points-random.png</file>
+    </qresource>
+</RCC>

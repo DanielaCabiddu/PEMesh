@@ -1,0 +1,9 @@
+[submodule "external/vem_benchmark_2d"]
+	path = external/vem_benchmark_2d
+	url = git@bitbucket.org:maxicino/vem_benchmark_2d.git
+[submodule "external/triangle"]
+	path = external/triangle
+	url = https://github.com/libigl/triangle
+[submodule "external/cinolib"]
+	path = external/cinolib
+	url = https://github.com/mlivesu/cinolib
