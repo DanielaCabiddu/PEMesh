@@ -32,16 +32,16 @@ First, build triangle library
 
 Then, build PEMesh for the repository root folder by running the following commands:
 
-`mkdir -p build`
-`cd build`
+`mkdir -p build`\
+`cd build`\
 `qmake ../src/PMesh.pro`
 
 ### CMake
 
 From the repository root folder, run the following commands:
 
-`mkdir -p build`
-`cd build`
+`mkdir -p build`\
+`cd build`\
 `cmake ../src`
 
 Triangle library will be automatically built by CMake.
