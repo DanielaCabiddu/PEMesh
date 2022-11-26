@@ -18,7 +18,11 @@ Please, use --recursive when cloning this repository.
 
 `git clone --recursive https://github.com/DanielaCabiddu/PEMesh`
 
-Then, you need to build triangle library
+PMesh can be built by running either QMake or CMake. See instriuctions below.
+
+### QMake 
+
+First, build triangle library
 
 `cd external/triangle`\
 `mkdir build`\
@@ -26,7 +30,22 @@ Then, you need to build triangle library
 `cmake ..`\
 `make`
 
-Now, you are ready to build PEMesh.
+Then, build PEMesh for the repository root folder by running the following commands:
+
+`mkdir -p build`
+`cd build`
+`qmake ../src/PMesh.pro`
+
+### CMake
+
+From the repository root folder, run the following commands:
+
+`mkdir -p build`
+`cd build`
+`cmake ../src`
+
+Triangle library will be automatically built by CMake.
+ 
 
 ## Other Authors
 * Giuseppe Patanè (CNR IMATI), Michela Spagnuolo (CNR IMATI)
