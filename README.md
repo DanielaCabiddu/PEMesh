@@ -18,7 +18,7 @@ Please, use --recursive when cloning this repository.
 
 `git clone --recursive https://github.com/DanielaCabiddu/PEMesh`
 
-In the following, please consider ${REPO_ROOT} variable as the folder where this README.md lies.
+In the following, please consider `${REPO_ROOT}` variable as the folder where this README.md lies.
 PMesh can be built by running either QMake or CMake. 
 In both cases, the PMesh executable will be available in the `${REPO_ROOT}/build` folder.
 
