@@ -71,3 +71,5 @@ DOI = {10.2312/stag.20221251}
 
 ## Acknowledgements
 This paper has been realized in the framework of ERC Project CHANGE (https://cordis.europa.eu/project/id/694515), which has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 694515).
+
+Special thanks to Marco Livesu for sharing with us the source code to generate parametric polygons and compute geometric metrics.
