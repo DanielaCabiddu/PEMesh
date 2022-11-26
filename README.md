@@ -1,6 +1,6 @@
 # PEMesh
 
-A Graphical Framework to Study the Correlation between Geometric Design and Simulation
+A Graphical Framework to Study the Correlation between Geometric Design and Simulation.
 
 <p align="center"><img src="change_gui_2d_rep_image.png" width="750"></p>
 
@@ -32,6 +32,8 @@ Now, you are ready to build PEMesh.
 * Giuseppe Patanè (CNR IMATI), Michela Spagnuolo (CNR IMATI)
 
 ## Citing us
+PEMesh has been published as a Software Paper (https://diglib.eg.org/bitstream/handle/10.2312/stag20221251/011-019.pdf?sequence=1&isAllowed=y).
+
 If you use PEMesh in your academic projects, please consider citing it using the following BibTeX entry:
 
 ```bibtex
