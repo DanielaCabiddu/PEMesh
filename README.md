@@ -18,29 +18,31 @@ Please, use --recursive when cloning this repository.
 
 `git clone --recursive https://github.com/DanielaCabiddu/PEMesh`
 
-PMesh can be built by running either QMake or CMake. See instriuctions below.
+In the following, please consider ${REPO_ROOT} variable as the folder where this README.md lies.
+PMesh can be built by running either QMake or CMake. 
+In both cases, the PMesh executable will be available in the `${REPO_ROOT}/build` folder.
 
 ### QMake 
 
 First, build triangle library
 
-`cd external/triangle`\
+`cd ${REPO_ROOT}/external/triangle`\
 `mkdir build`\
 `cd build`\
 `cmake ..`\
 `make`
 
-Then, build PEMesh for the repository root folder by running the following commands:
+Then, build PEMesh by running the following commands:
 
-`mkdir -p build`\
+`mkdir -p ${REPO_ROOT}/build`\
 `cd build`\
 `qmake ../src/PMesh.pro`
 
 ### CMake
 
-From the repository root folder, run the following commands:
+Run the following commands:
 
-`mkdir -p build`\
+`mkdir -p ${REPO_ROOT}/build`\
 `cd build`\
 `cmake ../src`
 
