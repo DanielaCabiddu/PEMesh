@@ -55,7 +55,7 @@ Triangle library will be automatically built by CMake.
 ## Citing us
 PEMesh has been published as a Software Paper (https://diglib.eg.org/bitstream/handle/10.2312/stag20221251/011-019.pdf?sequence=1&isAllowed=y).
 
-If you use PEMesh in your academic projects, please consider citing it using the following BibTeX entry:
+If you use PEMesh in your academic projects, please consider citing it using the following BibTeX entries:
 
 ```bibtex
 @inproceedings {pemesh-stag2022,
@@ -68,6 +68,20 @@ publisher = {The Eurographics Association},
 ISSN = {2617-4855},
 ISBN = {978-3-03868-191-5},
 DOI = {10.2312/stag.20221251}
+}
+
+@article{benchmark-mcs,
+title = {Benchmarking the geometrical robustness of a Virtual Element Poisson solver},
+journal = {Mathematics and Computers in Simulation},
+volume = {190},
+pages = {1392-1414},
+year = {2021},
+issn = {0378-4754},
+doi = {https://doi.org/10.1016/j.matcom.2021.07.018},
+url = {https://www.sciencedirect.com/science/article/pii/S0378475421002706},
+author = {Marco Attene and Silvia Biasotti and Silvia Bertoluzza and Daniela Cabiddu and Marco Livesu and Giuseppe Patanè and Micol Pennacchio and Daniele Prada and Michela Spagnuolo},
+keywords = {Polytopal Element Methods, Virtual Element Methods, Polygonal meshes, Geometric metrics, Geometry-PEM correlation},
+abstract = {Polytopal Element Methods (PEM) allow us solving differential equations on general polygonal and polyhedral grids, potentially offering great flexibility to mesh generation algorithms. Differently from classical finite element methods, where the relation between the geometric properties of the mesh and the performances of the solver are well known, the characterization of a good polytopal element is still subject to ongoing research. Current shape regularity criteria are quite restrictive, and greatly limit the set of valid meshes. Nevertheless, numerical experiments revealed that PEM solvers can perform well on meshes that are far outside the strict boundaries imposed by the current theory, suggesting that the real capabilities of these methods are much higher. In this work, we propose a benchmark to study the correlation between general 2D polygonal meshes and PEM solvers which we test on a virtual element solver for the Poisson equation. The benchmark aims to explore the space of 2D polygonal meshes and polygonal quality metrics, in order to understand if and how shape regularity, defined according to different criteria, affects the performance of the method. The proposed tool is quite general, and can be potentially used to study any PEM solver. Besides discussing the basics of the benchmark, we demonstrate its application on a representative member of the PEM family, namely the Virtual Element Method, also discussing our findings.}
 }
 ```
 
