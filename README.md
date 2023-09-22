@@ -80,8 +80,25 @@ issn = {0378-4754},
 doi = {https://doi.org/10.1016/j.matcom.2021.07.018},
 url = {https://www.sciencedirect.com/science/article/pii/S0378475421002706},
 author = {Marco Attene and Silvia Biasotti and Silvia Bertoluzza and Daniela Cabiddu and Marco Livesu and Giuseppe Patanè and Micol Pennacchio and Daniele Prada and Michela Spagnuolo},
-keywords = {Polytopal Element Methods, Virtual Element Methods, Polygonal meshes, Geometric metrics, Geometry-PEM correlation},
-abstract = {Polytopal Element Methods (PEM) allow us solving differential equations on general polygonal and polyhedral grids, potentially offering great flexibility to mesh generation algorithms. Differently from classical finite element methods, where the relation between the geometric properties of the mesh and the performances of the solver are well known, the characterization of a good polytopal element is still subject to ongoing research. Current shape regularity criteria are quite restrictive, and greatly limit the set of valid meshes. Nevertheless, numerical experiments revealed that PEM solvers can perform well on meshes that are far outside the strict boundaries imposed by the current theory, suggesting that the real capabilities of these methods are much higher. In this work, we propose a benchmark to study the correlation between general 2D polygonal meshes and PEM solvers which we test on a virtual element solver for the Poisson equation. The benchmark aims to explore the space of 2D polygonal meshes and polygonal quality metrics, in order to understand if and how shape regularity, defined according to different criteria, affects the performance of the method. The proposed tool is quite general, and can be potentially used to study any PEM solver. Besides discussing the basics of the benchmark, we demonstrate its application on a representative member of the PEM family, namely the Virtual Element Method, also discussing our findings.}
+keywords = {Polytopal Element Methods, Virtual Element Methods, Polygonal meshes, Geometric metrics, Geometry-PEM correlation}
+}
+
+@inbook{vem-and-the-mesh,
+author={ Sorgente, Tommaso and Prada, Daniele and  Cabiddu, Daniela and Biasotti, Silvia and  Patanè, Giuseppe and Pennacchio, Micol  and  Bertoluzza, Silvia and  Manzini, Gianmarco and  Spagnuolo, Michela},
+title={VEM and the Mesh},
+year={2022},
+publisher={Springer Nature Switzerland},
+address={Basel},
+volume={31},
+pages={1--57},
+booktitle={The Virtual Element Method and its Applications},
+url={https://link.springer.com/book/10.1007/978-3-030-95319-5},
+series={SEMA SIMAI Springer Series},
+isbn={978-3-030-95318-8},
+issn={2199-3041},
+doi={10.1007/978-3-030-95319-5},
+affiliation={IMATI-CNR, Genova, Pavia, Italy},
+language={eng}
 }
 ```
 
