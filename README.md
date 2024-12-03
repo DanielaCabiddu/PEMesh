@@ -2,6 +2,9 @@
 
 A Graphical Framework to Study the Correlation between Geometric Design and Simulation.
 
+>[!WARNING]
+>THIS ORIGINAL VERISON OF PEMesh IS NOT MAINTAINED ANYMORE. Please refer to the updated released version of the software, available at <a href="https://github.com/DanielaCabiddu/PEMesh.2"> https://github.com/DanielaCabiddu/PEMesh.2 </a>
+
 <p align="center"><img src="change_gui_2d_rep_image.png" width="750"></p>
 
 ## Dependencies
